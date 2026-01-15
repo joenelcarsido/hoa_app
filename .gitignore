@@ -71,4 +71,7 @@ frontend/dist/
 .cache
 .temp
 *.bak
-*.tmp
+*.tmp-e 
+# Environment files
+*.env
+*.env.*
