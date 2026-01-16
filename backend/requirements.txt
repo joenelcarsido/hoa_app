@@ -1,4 +1,0 @@
-hoa_app/
-├─ app.py (or main.py)
-├─ requirements.txt   ← put it here
-├─ other files...
