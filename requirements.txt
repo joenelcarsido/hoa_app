@@ -18,8 +18,8 @@ dnspython==2.8.0
 ecdsa==0.19.1
 email-validator==2.3.0
 
-# GitHub-hosted package
-git+https://github.com/joenelcarsido/emergentintegrations.git@main#egg=emergentintegrations
+# GitHub-hosted private package (using Render environment variable)
+git+https://$GITHUB_TOKEN@github.com/joenelcarsido/emergentintegrations.git@main#egg=emergentintegrations
 
 fastapi==0.110.1
 fastuuid==0.14.0
